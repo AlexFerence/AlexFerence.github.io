@@ -303,6 +303,10 @@ img {
     letter-spacing: 2px;
 }
 
+.education ul a {
+    margin-top: 5px;
+}
+
 .education .row {
     padding: 20px 40px;
 }
