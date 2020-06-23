@@ -10,7 +10,9 @@ body {
     margin: 0;
 }
 /* Always use the section above */
-
+#white-hover:hover {
+    color: white
+}   
 
 /* The container inside the header */
 .container {
@@ -200,7 +202,7 @@ header .row {
     font-size: 35px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #000000;
+    color: #313639;
     margin: 0 0 10px;
     position: relative;
     padding-bottom: 5px;
@@ -218,16 +220,16 @@ header .row {
     position: absolute
 }
 
-.about-me .section-title p.small{
+.about-me .section-title p {
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     color: #838383;
     letter-spacing: 2px;
+    padding-top: 10px;
 }
 
-.about-me .about-content .img{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+.about-me .swap img {
+    padding-bottom: 10px;
 }
 
 
@@ -238,7 +240,8 @@ header .row {
 }
 
 .about-me span {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 img {
