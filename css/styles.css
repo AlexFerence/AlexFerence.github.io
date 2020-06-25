@@ -260,6 +260,13 @@ img {
     transition: 1s;
 }
 
+.created-with {
+    color: #313639;
+    font-size: 20px;
+}
+
+
+/* The photo switching component */
 .swap img:last-child{display:none}
 .swap:hover img:first-child{display:none}
 .swap:hover img:last-child{display:inline-block}
