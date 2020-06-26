@@ -17,7 +17,10 @@ body {
 /* Always use the section above */
 #white-hover:hover {
     color: white
+    
 }   
+
+
 
 /* The container inside the header */
 .container {
@@ -251,6 +254,10 @@ header .row {
     font-size: 18px;
 }
 
+.app-section {
+    margin-top: 50px;
+}
+
 img {
     width: 100%;
     
@@ -262,7 +269,7 @@ img {
 
 .created-with {
     color: #313639;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
@@ -508,6 +515,5 @@ img {
 {
     background:#f2f3f4;
 }
-
 /*  */
 /*  */
