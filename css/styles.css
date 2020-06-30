@@ -255,7 +255,7 @@ header .row {
 }
 
 .app-section {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 img {
@@ -272,6 +272,9 @@ img {
     font-size: 17px;
 }
 
+.web {
+    padding-bottom: 35px;
+}
 
 /* The photo switching component */
 .swap img:last-child{display:none}
