@@ -520,5 +520,36 @@ img {
 }
 
 #study-buddy {
- padding: 10px;
+ padding: 20px;
+}
+
+.study-buddy__header {
+ color: black;
+ font-size: 30px;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+.study-buddy__header:hover {
+ color: #fb4033;
+}
+
+.study-buddy__stats-header {
+ font-size: 20px;
+ font-weight: 500;
+ margin: 10px 0px;
+}
+
+.study-buddy__stat {
+ margin-top: 5px;
+ font-size: 20px;
+}
+
+.study-buddy__tech-stack {
+ display: flex;
+ justify-content: space-around;
+}
+
+.react {
+ width: 120px;
 }
