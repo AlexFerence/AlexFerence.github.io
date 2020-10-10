@@ -192,7 +192,7 @@ header .row {
  /* background-color:#d5d5d5;   */
  flex: 0 0 100%;
  max-width: 100%;
- margin-bottom: 20px;
+ margin-bottom: 5px;
  padding-left: 15px;
 }
 
@@ -487,6 +487,11 @@ img {
  background: #f2f3f4;
 }
 
+.contact ul li:nth-child(2) span {
+ background: #f2f3f4;
+ /* background: #0e76a8; */
+}
+
 .contact ul li:nth-child(1) span {
  background: #f2f3f4;
  /* background: #0e76a8; */
@@ -498,6 +503,22 @@ img {
 /*  */
 /*  */
 
-.flex {
+.featured-project-row {
  display: flex;
+ justify-content: space-around;
+ margin-bottom: 30px;
+}
+
+.featured-project-row__item {
+ width: 100%;
+}
+
+#laptop {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#study-buddy {
+ padding: 10px;
 }
