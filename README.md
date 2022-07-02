@@ -5,3 +5,4 @@ I made this site with the intention of displaying all my personal projects in a 
 
 The site was made with HTML, CSS and bootstrap.
 
+Any feedback is welcome!
